@@ -22,7 +22,7 @@ ul.navbar-nav li a{
     white-space: nowrap;
     background: #17c0f3;
     color: white;
-    padding: 5px 20px;
+    padding: 2px 20px;
     font-family: 'Cinzel', serif;
     border-radius: 5px;
 }
@@ -33,6 +33,10 @@ ul.navbar-nav li a{
 }
 .bg-light.content {
     padding: 50px;
+}
+.nav-link-login {
+    display: block;
+    padding: .5rem 0rem;
 }
 .search-form{
     position: relative;
@@ -51,8 +55,10 @@ ul.navbar-nav li a{
         right: 1px;
         top: -7px;
     }
+    .bg-light.content {
+        padding: 20px;
+    }
 }
-
 footer {
     padding:30px 0;
 }
