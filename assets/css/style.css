@@ -26,7 +26,12 @@ ul.navbar-nav li a{
     font-family: 'Cinzel', serif;
     border-radius: 5px;
 }
-.bg-light {
+.navbar-light .navbar-brand {
+    
+    color: white;
+    
+}
+.bg-light.content {
     padding: 50px;
 }
 .search-form{
