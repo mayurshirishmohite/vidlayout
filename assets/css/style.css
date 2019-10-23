@@ -23,7 +23,7 @@ ul.navbar-nav li a{
     color: #000;
 }
 .bg-light.content {
-    padding: 20px 0 50px 0;
+    padding: 10px 0 50px 0;
 }
 .nav-link-login {
     display: block;
@@ -40,6 +40,18 @@ ul.navbar-nav li a{
     position: absolute;
     right: 7px;
 }
+.bg-video{
+    position: relative;
+}
+.play-text.text-center {
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    color: white;
+}
+.play-text.text-center img{
+    margin: 10px;
+}
 @media screen and (max-width:768px){
     .search-form button.btn {
         position: absolute;
@@ -52,6 +64,21 @@ ul.navbar-nav li a{
     .my-container{
         width: 90%;
         margin: 0 auto;
+    }
+    .play-text.text-center {
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        color: white;
+    }
+}
+@media screen and (max-width:568px){
+
+    .play-text.text-center {
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        color: white;
     }
 }
 footer {
