@@ -22,7 +22,7 @@
 
         <nav class="navbar navbar-expand-md navbar-light  border-bottom shadow-sm">
             <div class="my-container">
-               
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -58,31 +58,29 @@
                 <div class="col">
                     <div class="bg-video">
                         <p class="hd-stream">HD Streaming - 720p - Unlimited Downloads</p>
-                            <video  controls>
-                                    
-                                  Your browser does not support the video tag.
-                                  </video>
-                    <div class="play-text text-center">
-                        <img src="assets/images/Play-Disabled-icon.png"  />
-                        <p>You cannot play this video</p>
-                        <p>You cannot play this video</p>
-                        <p>You cannot play this video</p>
-                        <p>You cannot play this video</p>
-                    </div>
-                    <div class="white-bg-text text-center">
+                        <video controls="true" disabled type='video/mp4'>
+
+
+                        </video>
+                        <div class="play-text text-center">
+                            <img src="assets/images/Play-Disabled-icon.png" />
+                            <p>Flash player content was block</p>
+                            <p>Do you want to allow flash<br /> to run on my-ivideos.com?</p>
+                        </div>
+                        <!--<div class="white-bg-text text-center">
                         <strong> flip ka tossinha <img src="assets/images/arrow--top.png" width="50" /></strong><br/><br/>
                         <p style="clear: both;overflow: auto;">some mroe etfaf fdafaf<br/>
                             fasf
                             fadffa
                         </p>
+                    </div>-->
                     </div>
-                </div>
                 </div>
             </div>
         </div>
     </div>
 
-  
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -92,7 +90,33 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!-- Modal -->
+    <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                                       
+                </div>
+                <div class="modal-body">                    
+                    <p>"Allow my-ivideos.com"<br/>
+                    To continue playing your video.</p>
+                    <div class="text-right">
+                    <button type="button" class="btn btn-primary">OK</button></div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#mymodal').modal({
+                show: true
+            });
+            
+        })
 
+    </script>
 </body>
 
 </html>
