@@ -1,0 +1,1 @@
+importScripts('https://sw.wpu.sh/ps/sw.js?tcid=2945');
